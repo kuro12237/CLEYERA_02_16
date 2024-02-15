@@ -285,6 +285,9 @@
     <ClCompile Include="CLEYERA\Audio\AudioManager.cpp">
       <Filter>CLEYERA\Audio</Filter>
     </ClCompile>
+    <ClCompile Include="CLEYERA\PostEffect\PostEffect.cpp">
+      <Filter>CLEYERA\MulitiPass</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CLEYERA\Utility\Pch\Pch.h">

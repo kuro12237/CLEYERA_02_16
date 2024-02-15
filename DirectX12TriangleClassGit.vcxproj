@@ -68,6 +68,7 @@
     <ClCompile Include="CLEYERA\Model\State\ModelSphereState.cpp" />
     <ClCompile Include="CLEYERA\Particle\Particle.cpp" />
     <ClCompile Include="CLEYERA\Particle\state\ParticlePlaneState.cpp" />
+    <ClCompile Include="CLEYERA\PostEffect\PostEffect.cpp" />
     <ClCompile Include="CLEYERA\Sprite\Sprite.cpp" />
     <ClCompile Include="CLEYERA\Sprite\state\SpriteBoxState.cpp" />
     <ClCompile Include="CLEYERA\Transform\ViewProjection.cpp" />

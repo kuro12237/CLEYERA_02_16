@@ -32,7 +32,7 @@ void GameManager::Run()
 
 		LightingManager::ClearList();
 		Scene_->Update(this);
-		PostEffect::Update();
+		//PostEffect::Update();
 		LightingManager::TransfarBuffers();
 
 #ifdef  _USE_IMGUI
@@ -46,7 +46,7 @@ void GameManager::Run()
 		Scene_->Back2dSpriteDraw();
 		Scene_->Object3dDraw();
 		Scene_->Flont2dSpriteDraw();
-		PostEffect::Draw();
+		//PostEffect::Draw();
 
 		Cleyera::EndFlame();
 		DirectXCommon::PostDraw();

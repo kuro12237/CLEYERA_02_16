@@ -21,6 +21,7 @@ void Cleyera::Initialize()
 
 	AudioManager::Initialize();
 	LightingManager::Initialize();
+	PostEffect::Initialize();
 }
 
 void Cleyera::Finalize()

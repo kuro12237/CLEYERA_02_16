@@ -13,6 +13,7 @@
 #include"Graphics/DescripterManager/DescriptorManager.h"
 #include"Light/LightingManager.h"
 #include"AudioManager.h"
+#include"PostEffect/PostEffect.h"
 
 #ifdef _DEBUG
  

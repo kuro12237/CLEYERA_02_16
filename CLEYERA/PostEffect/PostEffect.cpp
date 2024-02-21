@@ -22,6 +22,10 @@ void PostEffect::Initialize()
 
 	PostEffect::GetInstance()->viewProjection_.Initialize();
 	PostEffect::GetInstance()->worldTransform_.Initialize();
+
+	//レンダーテクスチャの生成
+	D3D12_RESOURCE_DESC texDesc
+
 }
 
 void PostEffect::Update()

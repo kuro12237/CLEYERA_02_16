@@ -26,4 +26,6 @@ private:
 
 	ResourcePeroperty resource_ = {};
 
+	ComPtr<ID3D12Resource>texBuffer_ = nullptr;
+	ComPtr<ID3D12DescriptorHeap>descripterSrv = nullptr;
 };
